@@ -1,0 +1,56 @@
+# PowerShell
+*.ps1~
+*.psm1~
+*.psd1~
+*.ps1xml
+*.backup
+*.orig
+*.rej
+*.tests.ps1
+*.psd1.zip
+*.psm1.zip
+
+# VS Code (if using it)
+.vscode/
+*.code-workspace
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Git
+.git/
+.gitignore
+
+# Build/package outputs
+*.zip
+*.nupkg
+*.snupkg
+
+# PowerShell Secret Management
+Microsoft.PowerShell.SecretStore/
+
+# PSScriptAnalyzer
+PSScriptAnalyzerSettings.psd1
+
+# Pester test results
+TestResults/
+
+# NuGet/PowerShellGet module cache (optional, if developing or publishing modules)
+.nuget/
+*.nupkg.metadata
+*.nuspec
+
+# IDE/project-specific (optional, useful if using dotnet-based PS projects)
+*.user
+*.suo
+*.csproj.user
+*.psproj.user
